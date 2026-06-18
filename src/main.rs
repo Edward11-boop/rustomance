@@ -242,6 +242,11 @@ async fn main(spawner: Spawner) {
                         ).draw(&mut display).unwrap();
                     }
                 }
+                Text::new(
+                    "<- Back ",
+                    Point::new(5,220),
+                    style,
+                ).draw(&mut display).unwrap();
             }
         }
     }
