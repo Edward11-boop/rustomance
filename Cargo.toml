@@ -10,7 +10,8 @@ embassy-stm32 = { version = "0.1.0", features = [
     "memory-x",
     "time-driver-any",
     "exti",
-] 
+],
+libm = "0.2",
 }
 embassy-executor = { version = "0.5.0", features = [
     "task-arena-size-32768",
@@ -33,6 +34,7 @@ heapless = "0.9.3"
 embedded-graphics = "0.8.2"
 embedded-hal-bus = "0.3.0"
 mipidsi = "0.10.0"
+libm = "0.2.16"
 
 [profile.dev]
 debug = 2
